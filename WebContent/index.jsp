@@ -26,5 +26,9 @@ countB++;
 %>
 <p>宣言による変数 countA=<%=countA %></p>
 <p>スクリプトレットによる変数 countB=<%=countB %></p>
+
+<p><% out.println(Math.random()); %></p>
+<p><%=Math.random() %></p>
+
 </body>
 </html>
