@@ -4,7 +4,11 @@ xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
 
+<!-- web.xmlはアクセスされたURLに対して呼び出すクラス,エラー時に実行する処理の指定をするファイルなどの設定をする -->
+<!-- 省略可能なdisplay-name要素では、Webアプリケーションの表示名(GUIツールで表示できる短い名前)を指定 -->
 <display-name>HelloJSP</display-name>
+
+<!-- 省略可能なwelcome-file-list要素では、welcome-file要素の順序付きリストを指定します -->
 <welcome-file-list>
 <welcome-file>index.jsp</welcome-file>
 <welcome-file>greeting-out.jsp</welcome-file>
