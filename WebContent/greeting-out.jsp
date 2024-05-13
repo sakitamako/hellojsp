@@ -10,11 +10,11 @@
     </head>
     <body>
 
-    <!-- HTTPリクエスト内のパラメータ値を、引数に指定した文字コードでエンコードする(読み込む)メソッド -->
-    <% request.setCharacterEncoding("UTF-8"); %>
+        <!-- HTTPリクエスト内のパラメータ値を、引数に指定した文字コードでエンコードする(読み込む)メソッド -->
+        <% request.setCharacterEncoding("UTF-8"); %>
 
-    <!-- クライアント側のformから送られてきたデータを取得するメソッド -->
-    <p>こんにちは、<%= request.getParameter("user") %>さん！</p>
+        <!-- クライアント側のformから送られてきたデータを取得するメソッド -->
+        <p>こんにちは、<%= request.getParameter("user") %>さん！</p>
 
     </body>
 </html>
