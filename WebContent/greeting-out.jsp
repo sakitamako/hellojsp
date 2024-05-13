@@ -4,17 +4,17 @@
 <!-- ブラウザにHTML5標準に従って文書を解釈するよう指示 -->
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+    </head>
+    <body>
 
-<!-- HTTPリクエスト内のパラメータ値を、引数に指定した文字コードでエンコードする(読み込む)メソッド -->
-<% request.setCharacterEncoding("UTF-8"); %>
+    <!-- HTTPリクエスト内のパラメータ値を、引数に指定した文字コードでエンコードする(読み込む)メソッド -->
+    <% request.setCharacterEncoding("UTF-8"); %>
 
-<!-- クライアント側のformから送られてきたデータを取得するメソッド -->
-<p>こんにちは、<%= request.getParameter("user") %>さん！</p>
+    <!-- クライアント側のformから送られてきたデータを取得するメソッド -->
+    <p>こんにちは、<%= request.getParameter("user") %>さん！</p>
 
-</body>
+    </body>
 </html>

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
 
-<!-- web.xml=ブラウザに入力したURLと実行したいjavaを紐づける設定ファイル -->
-<!-- web.xmlはアクセスされたURLに対して呼び出すクラス,エラー時に実行する処理の指定をするファイルなどの設定をする -->
-<!-- 省略可能なdisplay-name要素では、Webアプリケーションの表示名(GUIツールで表示できる短い名前)を指定 -->
-<display-name>HelloJSP</display-name>
+    <!-- web.xml=ブラウザに入力したURLと実行したいjavaを紐づける設定ファイル -->
+    <!-- web.xmlはアクセスされたURLに対して呼び出すクラス,エラー時に実行する処理の指定をするファイルなどの設定をする -->
+    <!-- 省略可能なdisplay-name要素では、Webアプリケーションの表示名(GUIツールで表示できる短い名前)を指定 -->
+    <display-name>HelloJSP</display-name>
 
-<!-- <welcome-file-list>は複数の<welcome-file>要素を記述することができます -->
-<welcome-file-list>
-<!-- 複数のウェルカムページが指定された場合には、
-記述順――つまり、index.jsp、index.htmlの順にページを検索し、
-最初に見つかったページがウェルカムページとして表示されます。 -->
-<welcome-file>index.jsp</welcome-file>
-<welcome-file>greeting-out.jsp</welcome-file>
-<welcome-file>total-error.jsp</welcome-file>
-<welcome-file>total-out.jsp</welcome-file>
-</welcome-file-list>
+    <!-- <welcome-file-list>は複数の<welcome-file>要素を記述することができます -->
+    <welcome-file-list>
+
+        <!-- 複数のウェルカムページが指定された場合には、
+        記述順――つまり、index.jsp、index.htmlの順にページを検索し、
+        最初に見つかったページがウェルカムページとして表示されます。 -->
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>greeting-out.jsp</welcome-file>
+        <welcome-file>total-error.jsp</welcome-file>
+        <welcome-file>total-out.jsp</welcome-file>
+
+    </welcome-file-list>
 </web-app>
