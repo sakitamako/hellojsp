@@ -10,7 +10,8 @@
     </head>
     <body>
 
-        <!-- JSP内で例外が発生した場合に「表示するJSP」が読み込まれ、代わりにtotal-error.jspを表示する -->
+        <!-- JSP内で例外が発生した場合に「表示するJSP」が読み込まれ、
+        代わりにtotal-error.jspを表示する -->
         <%@ page errorPage="total-error.jsp" %>
 
         <%

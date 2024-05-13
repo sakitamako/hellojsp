@@ -29,7 +29,8 @@
             <tr>
                 <td><strong>例外を文字列に変換</strong></td>
 
-                <!-- 例外をログに出力する、toString＝数値型などを文字列に変換するときなどに使用 -->
+                <!-- 例外をログに出力する、
+                toString＝数値型などを文字列に変換するときなどに使用 -->
                 <td><% exception.toString(); %></td>
             </tr>
             <tr>
