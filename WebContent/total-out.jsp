@@ -25,6 +25,8 @@
         int delivery=Integer.parseInt(request.getParameter("delivery"));
         %>
 
+        <!-- ブラウザの各項目に数字を入力して計算ボタンをクリックすると計算されて下記が表示される、
+        formから送られてきたデータを取得するメソッド -->
         <%= price %>円x
         <%= count %>個＋送料
         <%= delivery %>円＝
